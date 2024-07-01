@@ -24,7 +24,7 @@ id = "87e7698a145e4d40b28a3089892023d6"  # id of your KV namespace
 
 [vars]
 # must be consistent with your routes
-BASE_URL = "https://r.vvp.us.kg/a"
+BASE_URL = "https://r.vvp.us.kg"
 
 
 # url to repo, displayed in index page
