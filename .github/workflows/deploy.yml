@@ -26,5 +26,9 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           #CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          BASIC_AUTH_USER1: ${{ secrets.BASIC_AUTH_USER1 }}
+          BASIC_AUTH_PASS1: ${{ secrets.BASIC_AUTH_PASS1 }}
+          BASIC_AUTH_USER2: ${{ secrets.BASIC_AUTH_USER2 }}
+          BASIC_AUTH_PASS2: ${{ secrets.BASIC_AUTH_PASS2 }}
         run: |
           yarn deploy
