@@ -6,13 +6,25 @@
     <link rel='icon' href='{{FAVICON}}' type='image/png' />
     <style media='screen'>
         {{CSS}}
+        .error-404 {
+            position: fixed;
+            top: 0;
+            left: 0;
+            margin: 10px;
+            font-size: 16px; /* 普通字体大小 */
+        }
+        .content {
+            margin-top: 100vh; /* 将内容推到100vh高度以下 */
+        }
     </style>
 </head>
 <html lang='en'>
 <body>
 <div class='px-3 my-5 markdown-body'>
-    <h1>Hello</h1>
-    <p>Good Luck. </p>
+    <div class="error-404">Error 404</div>
+    <div class="content">
+        <h1>Hello</h1>
+        <p>Good Luck.</p>
 
 
     <div id='paste-input-panel'>
