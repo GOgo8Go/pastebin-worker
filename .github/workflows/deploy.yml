@@ -19,8 +19,8 @@ jobs:
       - name: "Setup"
         run: yarn install
 
-      #- name: "Test"
-        #run: yarn test
+      - name: "Test"
+        run: yarn test
 
       - name: "Deploy"
         env:
